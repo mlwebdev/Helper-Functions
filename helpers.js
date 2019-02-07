@@ -14,3 +14,10 @@
   btn = document.getElementById("btn"); 
   btn.addEventListener("click", clearInputs);
 })(); // Clear Inputs
+
+
+//  Assign length to any array ( len(array_name); )
+function len(a) {
+  console.log(a.length);
+  return a.length;
+}
